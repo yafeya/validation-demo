@@ -9,7 +9,7 @@
     <input #name="ngModel" class="left-gap" type="text" placeholder="Age" 
            [ngClass]="{'invalid': name.errors}"
            [(ngModel)]="Age" 
-           required ageRevealed >
+           required numberRangeValidator min="1" max="1024" >
   </div>
 
   <div>

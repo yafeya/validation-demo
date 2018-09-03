@@ -10,7 +10,8 @@ import * as Directives from '../directives/index'
 @NgModule({
   declarations: [
     AppComponent,
-    Directives.AgeDirective
+    Directives.AgeDirective,
+    Directives.NumberRangeValidationDirective
   ],
   imports: [
     BrowserModule,
