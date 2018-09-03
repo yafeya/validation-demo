@@ -1,0 +1,13 @@
+.v-display div {
+    display: block;
+    margin-top: 5px;
+}
+
+.left-gap {
+    position: absolute;
+    left: 60px;
+}
+
+.invalid {
+    border-color: red
+}
